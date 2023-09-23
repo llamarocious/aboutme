@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trisha gon.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/030fa82772.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><span>trisha</span>gon_</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#music-taste">Music</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Computer Science Major</p>
+                <h1>Hi, I'm <span>Trisha</span> <br>from Batangas</h1>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- -----about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/2-cropped.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate computer science major who firmly believes that technology is the future. With an unwavering commitment to personal and professional growth, I embrace opportunities that come my way. Whether it's exploring the latest advancements in the tech world or honing my coding skills, I'm excited about the journey ahead and the limitless possibilities that await.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('fitness')">Fitness</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="hobbies">
+                        <ul>
+                            <li><span>Film/Photography</span><br>Editing <br>Recording</li>
+                            <li><span>Music</span><br>Listening <br>Dancing <br>Singing <br>Audio Mixing</li>
+                            <li><span>Reading</span><br>Manga <br>Webtoon <br>Books</li>
+                            <li><span>Watching</span> <br>Anime <br>Kdrama <br>Series</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="fitness">
+                        <ul>
+                            <li><span>Sports</span> <br>Table Tennis<br>Basketball <br>Volleyball <br>Badminton </li>
+                            <li><span>Workout</span> <br>Core <br>Weights <br>Calisthenics  </li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015-2019</span><br>Blessed Christ Child Montessori Foundation</li>
+                            <li><span>2019-2021</span><br>Balayan Senior High School</li>
+                            <li><span>2021-2025</span><br>Batangas State University</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>C++, Python, Java, Kotlin, HTML, CSS, & JavaScript</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <h2>Video Editing</h2>
+                    <p>30 seconds to 15-minute videos are edited professionally.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-headphones"></i>
+                    <h2>Audio Mixing</h2>
+                    <p>From 3-minute song recordings to hours long of podcasts.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ------music taste-------- -->
+    <div id="music-taste">
+        <div class="container">
+            <h1 class="sub-title">Music Taste</h1>
+            <div class="music-list">
+                <div class="music">
+                    <img src="images/gfriend.jpg" alt="">
+                    <div class="layer">
+                        <h3>GFRIEND</h3>
+                        <p>A six-member South Korean girl group that encapsulates a nostalgic feeling, whether it's through a dreamy, melancholic, sentimental sound presented especially through orchestral pop and ballads or a light-hearted, funky and energetic pop influenced by retro musical styles.</p>
+                        <a href="https://open.spotify.com/artist/0qlWcS66ohOIi0M8JZwPft?si=pzDDKIOiQO6uf5h55Uw6vQ" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="music">
+                    <img src="images/mori.png" alt="">
+                    <div class="layer">
+                        <h3>MORI CALLIOPE</h3>
+                        <p>A scythe swinging reaper, rapper, and workaholic business lady getting shit done. Calli works hard on her music in addition to her streaming. Seemingly cool and aloof, but is actually a big softie.</p>
+                        <a href="https://open.spotify.com/artist/1PhE6rv0146ZTQosoPDjk8?si=YmNEOxQ3QfufhCuSKf91iQ" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="music">
+                    <img src="images/yoasobi.jpg" alt="">
+                    <div class="layer">
+                        <h3>YOASOBI</h3>
+                        <p>The duo's ability to take short stories and turn them into lyrical prose with catchy pop verses and upbeat music is awe inspiring. Each song they produce narrates a story, usually something that depicts a human condition or emotion. YOASOBI's approach to such musical storytelling is what bears witness to their musical prowess.</p>
+                        <a href="https://open.spotify.com/artist/64tJ2EAv1R6UaZqc4iOCyj?si=Kggzj7KWR_WXFW00S999_w" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09987654321</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/trshgnzls/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/treshime/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/gonzalestrisha"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Trisha.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
